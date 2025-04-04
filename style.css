@@ -1,0 +1,75 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.card {
+    background: #082343;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 445px;
+    height: 270px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card img:hover {
+    transform: scale(1.2);
+  }
+  
+.name {
+    color: #dfd0c2;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+.name:hover{
+    transform: scale(1.2);
+}
+.designation {
+    color: #dfd0c2;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.designation:hover{
+    transform: scale(1.2);
+}
+.bio {
+    color: #dfd0c2;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.social-icons {
+    margin-top: 15px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #007bff;
+  }
